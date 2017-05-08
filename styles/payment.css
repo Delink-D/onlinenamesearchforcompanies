@@ -1,0 +1,94 @@
+/*.well-pay {
+    padding: 20px;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f5f5f5;
+    margin: 3% auto;
+}*/
+.mmoney {
+    width: 30%;
+    border: 1px solid #e2e2e2;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.mmoney label {
+    padding: 5px;
+}
+.mm-pic {
+    width: 95%;
+    margin: 0 auto;
+    height: 85px;
+}
+.side-bar {
+    float: right;
+    margin-top: 3%;
+}
+.well-pay {
+    margin-top: 25px;
+}
+.panel-title,.accordion-title,.bold {
+    font-size: large;
+    font-weight: 700;
+}
+.payment {
+    width: 94%;
+    clear: both;
+}
+.payment-title {
+    padding: 10px;
+    color: #333366;
+    margin-bottom: 15px;
+}
+.payment p {
+    color: #333;
+    font-size: medium;
+    margin-left: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn-pay {
+    margin: 10px 0 0 15px;
+}
+.small {
+    color: darkred;
+}
+.master {
+    width: 60%;
+    margin-left: 15px;
+}
+.master > .btn-pay{
+    margin-left: 0;
+}
+.master select {
+    width: 48%;
+    float: left;
+}
+.paypal {
+    width: 45%;
+    margin: 0 auto;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pay-table {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+}
+.nb-pay {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.pay-top {
+    color: #069;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.red {
+    color: red;
+    font-weight: bold;
+}

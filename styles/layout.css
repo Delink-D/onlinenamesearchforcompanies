@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*
+	Importing of other stylesheet friles..
+*/
+
+@import url("home.css");
+@import url("navi.css");
+@import url("form.css");
+@import url("payment.css");
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #f7f7f7;
+}
+a {
+	text-decoration: none;
+}
+p {
+	color: #ccc;
+	line-height: 23px;
+}
+ul {
+	list-style: none;
+}
+.group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 500px;
+	background: #e4f0f5;
+	border: 1px solid #4882b4;
+}
+.footer {
+	text-align: center;
+	min-height: 60px;
+	line-height: 25px;
+	padding-top: 10px;
+	color: #2c5c82;
+	margin: 15px 1px 1px 1px;
+	background: linear-gradient(bottom, #4b90c7,#539ad5);
+	background: -webkit-linear-gradient(bottom, #4b90c7,#539ad5);
+	background: -moz-linear-gradient(bottom, #4b90c7,#539ad5);
+	background: -o-linear-gradient(bottom, #4b90c7,#539ad5);
+}
+.footer span {
+	float: right;
+	margin-right: 10px;
+}
+.footer span a {
+	color: #2c5c82;
+}
+.margin-15 {
+	margin: 10% auto;
+	width: 100%;
+}

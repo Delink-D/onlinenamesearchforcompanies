@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*Index page.. search form*/
+
+.index-search {
+	width: 70%;
+	margin: 2% auto;
+}
+.small-h4 {
+	padding: 10px;
+	color: #666;
+}
+.form-group-search {
+	width: 80%;
+	margin: 0 auto;
+}
+input[type='text'].search  {
+	margin: 10px auto;
+}
+.name-search input[type='submit'] {
+	width: 130px;
+	margin: 0 auto;
+}
+.name-search {
+	text-align: center;
+}
+.r-error {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*Reservation page.. reservation form*/
+
+.well-reserve {
+	width: 85%;
+	margin: 2% auto;
+}
+
+.name-search2 {
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+.cname-group {
+	width: 80%;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.cname-group label {
+	font-size: 24px;
+}
+.cname {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin: 0 auto;
+	font-weight: ;bold;
+	color: #069;
+}
