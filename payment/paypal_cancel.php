@@ -33,10 +33,9 @@
 				<div class="logo group">
 					<img src="<?php echo $server; ?>/images/kenya_logo.png">
 				</div>
-				<div id="head">
-						
-				</div>
-				<img src="<?php echo $server; ?>/images/kenya_flag.png" id="flt_right">
+				<div class="head group">
+                    <img src="<?php echo $server;?>/images/kenya_flag.png" id="flt_right">
+                </div> 
 			</div>
 			<div class="main">
 				<h2 class="pay-top red">Company of Registrar PayPal payment Canceled!</h2>

@@ -52,10 +52,9 @@
 				<div class="logo group">
 					<img src="../images/kenya_logo.png">
 				</div>
-				<div id="head">
-						
+				<div class="head group">
+					<img src="../images/kenya_flag.png" id="flt_right">	
 				</div>
-				<img src="../images/kenya_flag.png" id="flt_right">
 			</div>
 			<div class="main">
 				<h1>Reserve Your Company Name Online</h1>

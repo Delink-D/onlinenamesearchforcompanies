@@ -11,7 +11,7 @@
 	$pass 	= '';
 	$db 	= 'name_search';
 
-	$connect = mysqli_connect($host, $user, '', $db);
+	$connect = mysqli_connect($host, $user, $pass, $db);
 
 	if (!$connect) {
 
