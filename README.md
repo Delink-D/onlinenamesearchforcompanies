@@ -1,4 +1,4 @@
-# onlinenamesearchforcompanies
+# online name search for companies V1.0
 
 An online web app for company name search, helps individuals who wish to  register comanies do a simple search in the database through the app.
 
