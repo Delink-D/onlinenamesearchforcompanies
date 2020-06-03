@@ -34,7 +34,7 @@
 			exit();
 		}
 
-		$name = encrypt($name,$key);
+		// $name = encrypt($name,$key);
 
 		// Delete all names older than 20 Minutes from onhold names table
 		$sql = "SELECT * FROM onhold_names WHERE created_at <= CURRENT_TIME - INTERVAL 20 MINUTE";
