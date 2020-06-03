@@ -35,10 +35,14 @@
     }
     while ($row = mysqli_fetch_assoc($get_details)) {
         $id    = $row['id'];
-        $fname = decrypt($row['first_name'],$key);
-        $lname = decrypt($row['last_name'],$key);
-        $cname = decrypt($row['company_name'],$key);
-        $email = decrypt($row['user_email'],$key);
+        // $fname = decrypt($row['first_name'],$key);
+        // $lname = decrypt($row['last_name'],$key);
+        // $cname = decrypt($row['company_name'],$key);
+        // $email = decrypt($row['user_email'],$key);
+        $fname = $row['first_name'];
+        $lname = $row['last_name'];
+        $cname = $row['company_name'];
+        $email = $row['user_email'];
     }
 ?>
 <!DOCTYPE html>

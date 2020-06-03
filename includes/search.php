@@ -100,7 +100,7 @@
 
 					session_start();
 
-					$name = decrypt($name,$key);
+					// $name = decrypt($name,$key);
 					
 					@$_SESSION['name'] = $name;
 
@@ -111,7 +111,7 @@
 
 					session_start();
 
-					$name = decrypt($name,$key);
+					// $name = decrypt($name,$key);
 
 					@$_SESSION['name'] = $name;
 					
@@ -121,7 +121,7 @@
 
 				session_start();
 
-				$name = decrypt($name,$key);
+				// $name = decrypt($name,$key);
 
 				@$_SESSION['name'] = $name;
 				
@@ -132,7 +132,7 @@
 
 			session_start();
 
-			$name = decrypt($name,$key);
+			// $name = decrypt($name,$key);
 
 			@$_SESSION['name'] = $name;
 			

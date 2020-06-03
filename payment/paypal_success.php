@@ -40,9 +40,12 @@
 	}
 
 	while ($row = mysqli_fetch_assoc($query)) {
-		$cname = decrypt($row['company_name'],$key);
-		$fname = decrypt($row['first_name'],$key);
-		$email = decrypt($row['user_email'],$key);
+		// $cname = decrypt($row['company_name'],$key);
+		// $fname = decrypt($row['first_name'],$key);
+		// $email = decrypt($row['user_email'],$key);
+		$cname = $row['company_name'];
+		$fname = $row['first_name'];
+		$email = $row['user_email'];
 	}
 
 ?>

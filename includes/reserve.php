@@ -90,12 +90,12 @@
 			                            $code = radom(6);
 
 										// When all things are good then proceed to reserving the name 
-										$cname = encrypt($cname,$key);
-										$fname = encrypt($fname,$key);
-										$lname = encrypt($lname,$key);
-										$natid = encrypt($natid,$key);
-										$phone = encrypt($phone,$key);
-										$email = encrypt($email,$key);
+										// $cname = encrypt($cname,$key);
+										// $fname = encrypt($fname,$key);
+										// $lname = encrypt($lname,$key);
+										// $natid = encrypt($natid,$key);
+										// $phone = encrypt($phone,$key);
+										// $email = encrypt($email,$key);
 
 										$save = mysqli_query($connect, "INSERT INTO onhold_names(company_name, first_name, last_name, nat_id, user_phone, user_email, kay)
 												VALUES('$cname','$fname','$lname','$natid','$phone','$email','$kay')") or die(header('location:'.$server.'includes/reporting.php?msg=table'));

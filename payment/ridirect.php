@@ -75,9 +75,13 @@
 				$reserv = mysqli_query($connect, "INSERT INTO reserved_names(company_name, first_name, last_name, nat_id, user_phone, user_email, payment_id)
 					VALUES('$cname','$fname','$lname ','$natid','$phone','$email','$trx_id')") or die(mysqli_error($connect));
 
-				$payer_name 	= encrypt($payer_name,$key);
-				$payer_email 	= encrypt($payer_email,$key);
-				$item 			= encrypt($item,$key);
+				// $payer_name 	= encrypt($payer_name,$key);
+				// $payer_email 	= encrypt($payer_email,$key);
+				// $item 			= encrypt($item,$key);
+
+				$payer_name 	= $payer_name;
+				$payer_email 	= $payer_email;
+				$item 			= $item;
 
 				$insert = mysqli_query($connect, "INSERT INTO paypal(payer_name, payer_email, trx_id, amount, currency, c_name)
 							VALUES('$payer_name','$payer_email','$trx_id ','$amount','$currency','$item')");
@@ -93,8 +97,11 @@
 					$mail->addReplyTo('info@coregistrar.co.ke', 'Info');
 					$mail->isHTML(true);
 
-					$payer_name = decrypt($payer_name,$key);
-					$item = decrypt($item,$key);
+					// $payer_name = decrypt($payer_name,$key);
+					// $item = decrypt($item,$key);
+
+					$payer_name = $payer_name;
+					$item = $item;
 
 					$mail->Subject = 'Payment Received!';
 					$mail->Body    = "
